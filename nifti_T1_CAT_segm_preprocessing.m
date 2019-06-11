@@ -1,4 +1,4 @@
-%% fMRI prepsocessing
+%% fMRI prepsocessing (NO SLICE TIMING CORRECTION. BLOCK DESIGN)
 
 % important:
 
