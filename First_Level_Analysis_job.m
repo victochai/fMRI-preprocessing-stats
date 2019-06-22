@@ -1,0 +1,61 @@
+%-----------------------------------------------------------------------
+% Job saved on 13-Jun-2019 20:34:37 by cfg_util (rev $Rev: 7345 $)
+% spm SPM - SPM12 (7487)
+% cfg_basicio BasicIO - Unknown
+%-----------------------------------------------------------------------
+matlabbatch{1}.cfg_basicio.file_dir.dir_ops.cfg_mkdir.parent = '<UNDEFINED>';
+matlabbatch{1}.cfg_basicio.file_dir.dir_ops.cfg_mkdir.name = 'output';
+matlabbatch{2}.spm.stats.fmri_spec.dir(1) = cfg_dep('Make Directory: Make Directory ''output''', substruct('.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','dir'));
+matlabbatch{2}.spm.stats.fmri_spec.timing.units = 'secs';
+matlabbatch{2}.spm.stats.fmri_spec.timing.RT = 2;
+matlabbatch{2}.spm.stats.fmri_spec.timing.fmri_t = 16;
+matlabbatch{2}.spm.stats.fmri_spec.timing.fmri_t0 = 8;
+matlabbatch{2}.spm.stats.fmri_spec.sess(1).scans = '<UNDEFINED>';
+matlabbatch{2}.spm.stats.fmri_spec.sess(1).cond = struct('name', {}, 'onset', {}, 'duration', {}, 'tmod', {}, 'pmod', {}, 'orth', {});
+matlabbatch{2}.spm.stats.fmri_spec.sess(1).multi = '<UNDEFINED>';
+matlabbatch{2}.spm.stats.fmri_spec.sess(1).regress = struct('name', {}, 'val', {});
+matlabbatch{2}.spm.stats.fmri_spec.sess(1).multi_reg = {''};
+matlabbatch{2}.spm.stats.fmri_spec.sess(1).hpf = 128;
+matlabbatch{2}.spm.stats.fmri_spec.sess(2).scans = '<UNDEFINED>';
+matlabbatch{2}.spm.stats.fmri_spec.sess(2).cond = struct('name', {}, 'onset', {}, 'duration', {}, 'tmod', {}, 'pmod', {}, 'orth', {});
+matlabbatch{2}.spm.stats.fmri_spec.sess(2).multi = '<UNDEFINED>';
+matlabbatch{2}.spm.stats.fmri_spec.sess(2).regress = struct('name', {}, 'val', {});
+matlabbatch{2}.spm.stats.fmri_spec.sess(2).multi_reg = {''};
+matlabbatch{2}.spm.stats.fmri_spec.sess(2).hpf = 128;
+matlabbatch{2}.spm.stats.fmri_spec.sess(3).scans = '<UNDEFINED>';
+matlabbatch{2}.spm.stats.fmri_spec.sess(3).cond = struct('name', {}, 'onset', {}, 'duration', {}, 'tmod', {}, 'pmod', {}, 'orth', {});
+matlabbatch{2}.spm.stats.fmri_spec.sess(3).multi = '<UNDEFINED>';
+matlabbatch{2}.spm.stats.fmri_spec.sess(3).regress = struct('name', {}, 'val', {});
+matlabbatch{2}.spm.stats.fmri_spec.sess(3).multi_reg = {''};
+matlabbatch{2}.spm.stats.fmri_spec.sess(3).hpf = 128;
+matlabbatch{2}.spm.stats.fmri_spec.sess(4).scans = '<UNDEFINED>';
+matlabbatch{2}.spm.stats.fmri_spec.sess(4).cond = struct('name', {}, 'onset', {}, 'duration', {}, 'tmod', {}, 'pmod', {}, 'orth', {});
+matlabbatch{2}.spm.stats.fmri_spec.sess(4).multi = '<UNDEFINED>';
+matlabbatch{2}.spm.stats.fmri_spec.sess(4).regress = struct('name', {}, 'val', {});
+matlabbatch{2}.spm.stats.fmri_spec.sess(4).multi_reg = {''};
+matlabbatch{2}.spm.stats.fmri_spec.sess(4).hpf = 128;
+matlabbatch{2}.spm.stats.fmri_spec.sess(5).scans = '<UNDEFINED>';
+matlabbatch{2}.spm.stats.fmri_spec.sess(5).cond = struct('name', {}, 'onset', {}, 'duration', {}, 'tmod', {}, 'pmod', {}, 'orth', {});
+matlabbatch{2}.spm.stats.fmri_spec.sess(5).multi = '<UNDEFINED>';
+matlabbatch{2}.spm.stats.fmri_spec.sess(5).regress = struct('name', {}, 'val', {});
+matlabbatch{2}.spm.stats.fmri_spec.sess(5).multi_reg = {''};
+matlabbatch{2}.spm.stats.fmri_spec.sess(5).hpf = 128;
+matlabbatch{2}.spm.stats.fmri_spec.sess(6).scans = '<UNDEFINED>';
+matlabbatch{2}.spm.stats.fmri_spec.sess(6).cond = struct('name', {}, 'onset', {}, 'duration', {}, 'tmod', {}, 'pmod', {}, 'orth', {});
+matlabbatch{2}.spm.stats.fmri_spec.sess(6).multi = '<UNDEFINED>';
+matlabbatch{2}.spm.stats.fmri_spec.sess(6).regress = struct('name', {}, 'val', {});
+matlabbatch{2}.spm.stats.fmri_spec.sess(6).multi_reg = {''};
+matlabbatch{2}.spm.stats.fmri_spec.sess(6).hpf = 128;
+matlabbatch{2}.spm.stats.fmri_spec.fact = struct('name', {}, 'levels', {});
+matlabbatch{2}.spm.stats.fmri_spec.bases.hrf.derivs = [0 0];
+matlabbatch{2}.spm.stats.fmri_spec.volt = 1;
+matlabbatch{2}.spm.stats.fmri_spec.global = 'None';
+matlabbatch{2}.spm.stats.fmri_spec.mthresh = 0.8;
+matlabbatch{2}.spm.stats.fmri_spec.mask = {''};
+matlabbatch{2}.spm.stats.fmri_spec.cvi = 'AR(1)';
+matlabbatch{3}.spm.stats.review.spmmat(1) = cfg_dep('fMRI model specification: SPM.mat File', substruct('.','val', '{}',{2}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','spmmat'));
+matlabbatch{3}.spm.stats.review.display.matrix = 1;
+matlabbatch{3}.spm.stats.review.print = 'pdf';
+matlabbatch{4}.spm.stats.fmri_est.spmmat(1) = cfg_dep('fMRI model specification: SPM.mat File', substruct('.','val', '{}',{2}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','spmmat'));
+matlabbatch{4}.spm.stats.fmri_est.write_residuals = 0;
+matlabbatch{4}.spm.stats.fmri_est.method.Classical = 1;
